@@ -17,3 +17,4 @@ var chrt = document.getElementById("chartId").getContext("2d");
          },
          
       });
+

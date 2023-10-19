@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -31,6 +33,7 @@ ul {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -180,6 +183,14 @@ hr.rounded {
     min-height: 670px;
 }
 
+#contact{
+    overflow-x: hidden;
+}
+
+.con{
+    text-align: center;
+}
+
 @media(max-width: 768px){
     .header .container{
         flex-direction: column;
@@ -195,15 +206,13 @@ hr.rounded {
 
     }
 
+    
+
+    
+
 
 
     
       
-  
 
-    /* .piechart { 
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-    }  */
 }
